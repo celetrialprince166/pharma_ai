@@ -19,7 +19,7 @@ services:
       - key: DATABASE_URL
         value: "postgresql://neondb_owner:npg_f7kebLD2AmiB@ep-late-sunset-a587ahwr-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require"
       - key: GROQ_API_KEY
-        value: "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"
+        value: "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"
       - key: GROQ_BASE_URL
         value: https://api.groq.com/openai/v1
 
