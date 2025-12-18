@@ -14,7 +14,6 @@ RUN npm install --legacy-peer-deps jspdf jspdf-autotable p-retry node-cache idb 
 RUN npm ci --legacy-peer-deps --ignore-engines
 
 # Fix Paystack version compatibility issue
-RUN npm uninstall react-paystack && npm install react-paystack@2.0.3 --save --legacy-peer-deps
 
 # Rebuild the source code only when needed
 FROM base AS builder
